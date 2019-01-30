@@ -1,0 +1,52 @@
+h1,
+h3,
+form, 
+#emotions-view {
+    margin: 25px;
+}
+
+h1,
+h3 {
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    color: black;
+}
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(160, 233, 188);
+    background-image: url("../images/wallpaper.jpg");
+    background-size: 100%;
+    color: black;
+}
+
+.emotion-btn, 
+.emotion {
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border: solid 1px black;
+    margin-left: 25px;
+    border-radius: 15px;
+    align-content: center;
+}
+ 
+#add-emotion {
+    color:white;
+    background-color: black;
+}
+
+/* Favorite Icon styling */
+.fa,
+.heart {
+    font-size: 25px;
+    position: absolute;
+    color: white;
+  }
+
+  .fa:hover {
+    color: red;
+  }
+
+  .favorited {
+      color: red;
+  }
