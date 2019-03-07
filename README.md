@@ -1,6 +1,6 @@
 # -GifTastic
 
--(http://i.imgur.com/uUP2DAp.gif)
+![Alt Text](http://i.imgur.com/uUP2DAp.gif)
 
 +<img src="/art/sample.gif?raw=true" width="200px">
 
