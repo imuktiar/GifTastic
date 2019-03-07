@@ -1,6 +1,6 @@
 # -GifTastic
 
--![Sample Gif](http://i.imgur.com/______.gif)
+-(http://i.imgur.com/uUP2DAp.gif)
 
 +<img src="/art/sample.gif?raw=true" width="200px">
 
