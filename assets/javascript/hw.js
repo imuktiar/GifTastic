@@ -1,8 +1,7 @@
-var cars = ["Drifting", 
-            "Road Racing", 
-            "GT3 Racing", 
-            "Formula One",
-            "Initial D",
+const cars = ["Drifting", 
+            "power slide", 
+            "Supra",
+            "Sliding",
             "350z"];
 
 // Function for displaying data
@@ -25,7 +24,7 @@ renderButtons();
 $("body").on("click", '#add-car', function(event) {
 
   event.preventDefault();
-  var car = $("#car-input").val().trim();
+  const car = $("#car-input").val().trim();
   if (car == '') {
     alert('please insert a MEANINGFUL car brand or model, not just spaces')
   }
@@ -39,7 +38,7 @@ $("body").on("click", '#add-car', function(event) {
 
 $("body").on("click", '.clicker', function() {
   
-  var car = $(this).attr("data-name");
+  const car = $(this).attr("data-name");
   console.log("data-name -" + car + "-");
 
   var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
@@ -52,7 +51,7 @@ $("body").on("click", '.clicker', function() {
     })
     .then(function(response) {
 
-      var results = response.data;
+      const results = response.data;
       console.log(response);
       $('#images').empty();
 
@@ -79,7 +78,7 @@ $("body").on("click", '.clicker', function() {
 
 $("body").on("click", '.img-thumbnail', function() {
 
-  var state = $(this).attr('data-state');
+  const state = $(this).attr('data-state');
 
   if (state == 'still') {
     $(this).attr('src', $(this).attr('data-animate'));
