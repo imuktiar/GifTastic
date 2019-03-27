@@ -19,7 +19,7 @@ img, p {
 }
 
 body {
-	background-image: url(images/wallpaper4.jpg);
+	background-image: url(/wallpapers4.jpeg);
 	background-position: center center;
 	background-size: cover;
 	background-attachment:fixed; 

@@ -42,7 +42,7 @@ $("body").on("click", '.clicker', function() {
   console.log("data-name -" + car + "-");
 
   var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
-    car + "&api_key=zPDjaSmQ2EjW3d5kdXcCks8YyYGwLtPC&limit=10";
+    car + "&api_key=ReOVL04OOucHjYZQbjsm85fTffOe5rFl&limit=10";
   console.log("query -" + queryURL + "-");
 
   $.ajax({
